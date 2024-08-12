@@ -1,0 +1,6 @@
+[submodule "FantasyNSIC_Backend"]
+    path = FantasyNSIC_Backend
+    url = https://github.com/FantasyNSIC/FantasyNSIC_Backend.git
+[submodule "FantasyNSIC_Frontend"]
+    path = FantasyNSIC_Frontend
+    url = https://github.com/FantasyNSIC/FantasyNSIC_Frontend.git
