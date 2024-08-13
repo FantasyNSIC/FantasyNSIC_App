@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build:
+      context: ./FantasyNSIC_Frontend
+    ports:
+      - "3001:80"
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./FantasyNSIC_Backend
+    ports:
+      - "5001:5001"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
