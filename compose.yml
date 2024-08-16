@@ -3,7 +3,7 @@ services:
     build:
       context: ./FantasyNSIC_Frontend
     ports:
-      - "3001:80"
+      - "8081:8081"
     networks:
       - app-network
 
